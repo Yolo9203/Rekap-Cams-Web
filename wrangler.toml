@@ -1,0 +1,7 @@
+name = "rekap-cams"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+[vars]
+GH_REPO = "Yolo9203/Rekap-Cams-Web"
+GH_TOKEN = ""
