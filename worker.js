@@ -28,10 +28,38 @@ export default {
       if (path === '/api/sheets') return new Response(JSON.stringify(SHEET_LIST), { headers: { 'Content-Type': 'application/json', ...cors } })
       if (path === '/api/sheet') {
         const file = url.searchParams.get('file')
+        const page = parseInt(url.searchParams.get('page')||'1')
+        const perPage = parseInt(url.searchParams.get('perPage')||'50')
         if (!file) return new Response('{"error":"file required"}', { status: 400, headers: { 'Content-Type': 'application/json', ...cors } })
+        
         const resp = await fetch(DATA_URL + file)
         if (!resp.ok) return new Response('{"error":"not found"}', { status: 404, headers: { 'Content-Type': 'application/json', ...cors } })
-        return new Response(await resp.text(), { headers: { 'Content-Type': 'application/json', ...cors } })
+        const json = await resp.json()
+        const headers = json.headers || []
+        const allData = json.data || []
+        
+        // Filter out unwanted rows
+        const filtered = allData.filter(row => {
+          const t = row.map(c => c !== '' && c !== null && c !== undefined ? String(c) : '').join(' ')
+          if (t.toUpperCase().includes('PB DANA') || t.toUpperCase().includes('REKAP PEMBAYARAN') || t.toUpperCase().includes('TRANSAKSI CAMS')) return false
+          return true
+        })
+        
+        const total = filtered.length
+        const pages = Math.ceil(total / perPage)
+        const start = (page - 1) * perPage
+        const pageData = filtered.slice(start, start + perPage)
+        
+        // Filter columns (remove empty/email)
+        const validCols = []
+        headers.forEach((h, i) => { if (h && h.trim() && !h.includes('@')) validCols.push(i) })
+        
+        return new Response(JSON.stringify({
+          sheet: json.sheet,
+          headers: validCols.map(i => HM[headers[i]] || headers[i]),
+          data: pageData.map(row => validCols.map(i => row[i] !== undefined ? row[i] : '')),
+          total, pages, page, perPage
+        }), { headers: { 'Content-Type': 'application/json', ...cors } })
       }
       return new Response('{"error":"not found"}', { status: 404, headers: { 'Content-Type': 'application/json', ...cors } })
     } catch (e) {
@@ -77,7 +105,7 @@ tr:hover{background:#e8f4f8}
 <div class="top"><h1>Rekap CAMS</h1><p>Eagle High Plantations - Banjarbaru</p></div>
 <div class="container"><div id="view"><div class="card"><h2>Selamat Datang</h2><p style="color:#666;margin-bottom:15px">Pilih sheet di bawah untuk menampilkan data.</p><div id="sheets" class="sheets"><div class="loading">Memuat daftar sheet...</div></div></div></div></div>
 <script>
-let allData=[],currentPage=1,perPage=50,validCols=[];
+let currentPage=1,perPage=50,total=0,pages=0;
 async function loadSheets(){
   const res=await fetch('/api/sheets');
   const sheets=await res.json();
@@ -86,52 +114,46 @@ async function loadSheets(){
 async function loadSheet(file){
   const view=document.getElementById('view');
   view.innerHTML='<div class="card"><div class="loading">Memuat data...</div></div>';
-  const res=await fetch('/api/sheet?file='+encodeURIComponent(file));
+  currentPage=1;perPage=50;
+  await fetchPage(file);
+}
+async function fetchPage(file){
+  const view=document.getElementById('view');
+  const res=await fetch('/api/sheet?file='+encodeURIComponent(file)+'&page='+currentPage+'&perPage='+perPage);
   const json=await res.json();
   if(json.error){view.innerHTML='<div class="card"><p style="color:red">Error:'+json.error+'</p></div>';return;}
-  const headers=json.headers||[],data=json.data||[];
-  if(!data.length){view.innerHTML='<div class="card"><p>Tidak ada data.</p></div>';return;}
-  allData=data;currentPage=1;
-  validCols=[];
-  headers.forEach((h,i)=>{if(h&&h.trim()&&!h.includes('@'))validCols.push(i);});
-  let html='<div class="card"><button class="back" onclick="loadSheets()">&larr; Kembali</button><h2>'+json.sheet+'</h2><div style="margin-bottom:12px"><label>Tampilkan </label><select id="perPage" onchange="renderPage()"><option value="10">10</option><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option></select> baris | <span id="info"></span></div><div style="overflow-x:auto"><table><thead><tr>';
-  validCols.forEach(i=>{html+='<th>'+(HM[headers[i]]||headers[i])+'</th>';});
-  html+='</tr></thead><tbody></tbody></table></div><div id="pager" style="margin-top:12px;text-align:center"></div></div>';
+  total=json.total;pages=json.pages;
+  let html='<div class="card"><button class="back" onclick="loadSheets()">&larr; Kembali</button><h2>'+json.sheet+'</h2><div style="margin-bottom:12px"><label>Tampilkan </label><select id="perPage" onchange="changePerPage(\\''+file+'\\')"><option value="10">10</option><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option></select> baris | <span id="info"></span></div><div style="overflow-x:auto"><table><thead><tr>';
+  json.headers.forEach(h=>{html+='<th>'+h+'</th>';});
+  html+='</tr></thead><tbody>';
+  json.data.forEach(row=>{
+    html+='<tr>';
+    row.forEach(c=>{html+='<td>'+(c!==''&&c!==null&&c!==undefined?c:'<span class="null">-</span>')+'</td>';});
+    html+='</tr>';
+  });
+  html+='</tbody></table></div><div id="pager" style="margin-top:12px;text-align:center"></div></div>';
   view.innerHTML=html;
-  renderPage();
+  document.getElementById('info').textContent='Baris '+((currentPage-1)*perPage+1)+'-'+Math.min(currentPage*perPage,total)+' dari '+total;
+  renderPager(file);
 }
-function renderPage(){
+function changePerPage(file){
   perPage=parseInt(document.getElementById('perPage').value);
-  const filtered=allData.filter(row=>{
-    const t=row.map(c=>c!==''&&c!==null&&c!==undefined?String(c):'').join(' ');
-    if(t.toUpperCase().includes('PB DANA')||t.toUpperCase().includes('REKAP PEMBAYARAN')||t.toUpperCase().includes('TRANSAKSI CAMS'))return false;
-    return true;
-  });
-  const total=filtered.length;
-  const pages=Math.ceil(total/perPage);
-  currentPage=Math.min(currentPage,pages)||1;
-  const start=(currentPage-1)*perPage;
-  const pageData=filtered.slice(start,start+perPage);
-  let h='';
-  pageData.forEach(row=>{
-    h+='<tr>';
-    validCols.forEach(i=>{const c=row[i];h+='<td>'+(c!==''&&c!==null&&c!==undefined?c:'<span class="null">-</span>')+'</td>';});
-    h+='</tr>';
-  });
-  document.querySelector('tbody').innerHTML=h;
-  document.getElementById('info').textContent='Baris '+(start+1)+'-'+Math.min(start+perPage,total)+' dari '+total;
+  currentPage=1;
+  fetchPage(file);
+}
+function renderPager(file){
   let btns='';
   if(pages>1){
-    btns+='<button onclick="goPage('+(currentPage-1)+')" '+(currentPage===1?'disabled="true"':'')+'>&laquo; Prev</button> ';
+    btns+='<button onclick="goPage(\\''+file+'\\','+(currentPage-1)+')" '+(currentPage===1?'disabled="true"':'')+'>&laquo; Prev</button> ';
     for(let i=1;i<=pages;i++){
-      if(i===1||i===pages||Math.abs(i-currentPage)<=2) btns+='<button onclick="goPage('+i+')" style="'+(i===currentPage?'background:#c0392b;color:#fff':'')+'">'+i+'</button> ';
+      if(i===1||i===pages||Math.abs(i-currentPage)<=2) btns+='<button onclick="goPage(\\''+file+'\\','+i+')" style="'+(i===currentPage?'background:#c0392b;color:#fff':'')+'">'+i+'</button> ';
       else if(Math.abs(i-currentPage)===3) btns+='... ';
     }
-    btns+='<button onclick="goPage('+(currentPage+1)+')" '+(currentPage===pages?'disabled="true"':'')+'>Next &raquo;</button>';
+    btns+='<button onclick="goPage(\\''+file+'\\','+(currentPage+1)+')" '+(currentPage===pages?'disabled="true"':'')+'>Next &raquo;</button>';
   }
   document.getElementById('pager').innerHTML=btns;
 }
-function goPage(p){currentPage=p;renderPage();}
+function goPage(file,p){currentPage=p;fetchPage(file);}
 loadSheets();
 </script>
 </body>
