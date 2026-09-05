@@ -92,9 +92,10 @@ async function loadSheet(file){
   const headers=json.headers||[],data=json.data||[];
   if(!data.length){view.innerHTML='<div class="card"><p>Tidak ada data.</p></div>';return;}
   allData=data;currentPage=1;
-  const validCols=headers.map((h,i)=>({h,i})).filter(x=>x.h&&x.h.trim()&&!x.h.includes('@'));
+  const validCols=[];
+  headers.forEach((h,i)=>{if(h&&h.trim()&&!h.includes('@'))validCols.push(i);});
   let html='<div class="card"><button class="back" onclick="loadSheets()">&larr; Kembali</button><h2>'+json.sheet+'</h2><div style="margin-bottom:12px"><label>Tampilkan </label><select id="perPage" onchange="renderPage()"><option value="10">10</option><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option></select> baris | <span id="info"></span></div><div style="overflow-x:auto"><table><thead><tr>';
-  validCols.forEach(v=>{html+='<th>'+(HM[v.h]||v.h)+'</th>';});
+  validCols.forEach(i=>{html+='<th>'+(HM[headers[i]]||headers[i])+'</th>';});
   html+='</tr></thead><tbody></tbody></table></div><div id="pager" style="margin-top:12px;text-align:center"></div></div>';
   view.innerHTML=html;
   renderPage();
@@ -114,7 +115,7 @@ function renderPage(){
   let h='';
   pageData.forEach(row=>{
     h+='<tr>';
-    row.forEach(c=>{h+='<td>'+(c!==''&&c!==null&&c!==undefined?c:'<span class="null">-</span>')+'</td>';});
+    validCols.forEach(i=>{const c=row[i];h+='<td>'+(c!==''&&c!==null&&c!==undefined?c:'<span class="null">-</span>')+'</td>';});
     h+='</tr>';
   });
   document.querySelector('tbody').innerHTML=h;
