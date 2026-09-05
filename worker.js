@@ -1,6 +1,27 @@
 const REPO = 'Yolo9203/Rekap-Cams-Web'
 const DATA_URL = `https://raw.githubusercontent.com/${REPO}/main/data/`
 
+const SHEET_LIST = [
+  { file: 'BAPP.json', name: 'BAPP' },
+  { file: 'Kontanan.json', name: 'Kontanan' },
+  { file: 'rekrut.json', name: 'Rekrut' },
+  { file: 'Perdin_RO.json', name: 'Perdin RO' },
+  { file: 'email_CDP.json', name: 'CDP General' },
+  { file: 'CS.json', name: 'CS RO' },
+  { file: 'COLA.json', name: 'Plasma Mandiri' },
+]
+
+const HEADER_MAP = {
+  'KET': 'Deskripsi',
+  'KEBUN': 'Est Pengirim',
+  'NILAI': 'Nilai',
+  'NAMA REK': 'Nama Rekening Penerima',
+  'BANK': 'Bank Penerima',
+  'NO REK': 'No Rek Penerima',
+  'Qlola': 'Trx Qlola',
+  'Lunas': 'Tgl Bayar',
+}
+
 export default {
   async fetch(request) {
     const url = new URL(request.url)
@@ -42,26 +63,7 @@ export default {
   }
 }
 
-const SHEET_LIST = [
-  { file: 'BAPP.json', name: 'BAPP' },
-  { file: 'Kontanan.json', name: 'Kontanan' },
-  { file: 'rekrut.json', name: 'Rekrut' },
-  { file: 'Perdin_RO.json', name: 'Perdin RO' },
-  { file: 'email_CDP.json', name: 'CDP General' },
-  { file: 'CS.json', name: 'CS RO' },
-  { file: 'COLA.json', name: 'Plasma Mandiri' },
-]
-
-const HEADER_MAP = {
-  'KET': 'Deskripsi',
-  'KEBUN': 'Est Pengirim',
-  'NILAI': 'Nilai',
-  'NAMA REK': 'Nama Rekening Penerima',
-  'BANK': 'Bank Penerima',
-  'NO REK': 'No Rek Penerima',
-  'Qlola': 'Trx Qlola',
-  'Lunas': 'Tgl Bayar',
-}
+const HTML = `<!doctype html>
 <html lang="id">
 <head>
 <meta charset="utf-8">
@@ -79,7 +81,6 @@ body{font-family:Segoe UI,Arial;background:#eef1f5;color:#2c3e50}
 .sheets{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
 .sheet-btn{background:#2c3e50;color:#fff;border:none;padding:14px;border-radius:6px;cursor:pointer;font-size:14px;text-align:left;transition:.2s}
 .sheet-btn:hover{background:#34495e;transform:translateY(-2px)}
-.sheet-btn small{display:block;margin-top:4px;opacity:.7;font-size:11px}
 .back{background:#95a5a6;color:#fff;border:none;padding:8px 16px;border-radius:4px;cursor:pointer;margin-bottom:12px;font-size:13px}
 .back:hover{background:#7f8c8d}
 table{width:100%;border-collapse:collapse;font-size:12px}
@@ -106,7 +107,7 @@ tr:hover{background:#e8f4f8}
   </div>
 </div>
 <script>
-const HEADER_MAP = {'KET':'Deskripsi','KEBUN':'Est Pengirim','NILAI':'Nilai','NAMA REK':'Nama Rekening Penerima','BANK':'Bank Penerima','NO REK':'No Rek Penerima','Qlola':'Trx Qlola','Lunas':'Tgl Bayar'};
+const HM = {'KET':'Deskripsi','KEBUN':'Est Pengirim','NILAI':'Nilai','NAMA REK':'Nama Rekening Penerima','BANK':'Bank Penerima','NO REK':'No Rek Penerima','Qlola':'Trx Qlola','Lunas':'Tgl Bayar'};
 async function loadSheets(){
   const res=await fetch('/api/sheets');
   const sheets=await res.json();
@@ -123,7 +124,7 @@ async function loadSheet(file){
   const data=json.data||[];
   if(!data.length){view.innerHTML='<div class="card"><p>Tidak ada data.</p></div>';return;}
   let html='<div class="card"><button class="back" onclick="loadSheets()">&larr; Kembali</button><h2>'+json.sheet+'</h2><div style="overflow-x:auto"><table><thead><tr>';
-  headers.forEach(h=>{const label=HEADER_MAP[h]||h;html+='<th>'+label+'</th>';});
+  headers.forEach(h=>{html+='<th>'+(HM[h]||h)+'</th>';});
   html+='</tr></thead><tbody>';
   data.forEach(row=>{
     html+='<tr>';
