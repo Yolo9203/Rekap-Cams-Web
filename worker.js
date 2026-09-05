@@ -52,7 +52,16 @@ const SHEET_LIST = [
   { file: 'COLA.json', name: 'Plasma Mandiri' },
 ]
 
-const HTML = `<!doctype html>
+const HEADER_MAP = {
+  'KET': 'Deskripsi',
+  'KEBUN': 'Est Pengirim',
+  'NILAI': 'Nilai',
+  'NAMA REK': 'Nama Rekening Penerima',
+  'BANK': 'Bank Penerima',
+  'NO REK': 'No Rek Penerima',
+  'Qlola': 'Trx Qlola',
+  'Lunas': 'Tgl Bayar',
+}
 <html lang="id">
 <head>
 <meta charset="utf-8">
@@ -97,6 +106,7 @@ tr:hover{background:#e8f4f8}
   </div>
 </div>
 <script>
+const HEADER_MAP = {'KET':'Deskripsi','KEBUN':'Est Pengirim','NILAI':'Nilai','NAMA REK':'Nama Rekening Penerima','BANK':'Bank Penerima','NO REK':'No Rek Penerima','Qlola':'Trx Qlola','Lunas':'Tgl Bayar'};
 async function loadSheets(){
   const res=await fetch('/api/sheets');
   const sheets=await res.json();
@@ -113,7 +123,7 @@ async function loadSheet(file){
   const data=json.data||[];
   if(!data.length){view.innerHTML='<div class="card"><p>Tidak ada data.</p></div>';return;}
   let html='<div class="card"><button class="back" onclick="loadSheets()">&larr; Kembali</button><h2>'+json.sheet+'</h2><div style="overflow-x:auto"><table><thead><tr>';
-  headers.forEach(h=>{html+='<th>'+(h||'-')+'</th>';});
+  headers.forEach(h=>{const label=HEADER_MAP[h]||h;html+='<th>'+label+'</th>';});
   html+='</tr></thead><tbody>';
   data.forEach(row=>{
     html+='<tr>';
