@@ -124,7 +124,8 @@ async function loadSheet(file){
   const data=json.data||[];
   if(!data.length){view.innerHTML='<div class="card"><p>Tidak ada data.</p></div>';return;}
   let html='<div class="card"><button class="back" onclick="loadSheets()">&larr; Kembali</button><h2>'+json.sheet+'</h2><div style="overflow-x:auto"><table><thead><tr>';
-  headers.forEach(h=>{html+='<th>'+(HM[h]||h)+'</th>';});
+  const validCols = headers.map((h,i)=>({h,i})).filter(x => x.h && x.h.trim() && !x.h.includes('@'));
+  validCols.forEach(v => { html+='<th>'+(HM[v.h]||v.h)+'</th>'; });
   html+='</tr></thead><tbody>';
   data.forEach(row=>{
     html+='<tr>';
