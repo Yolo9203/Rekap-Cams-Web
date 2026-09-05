@@ -89,6 +89,10 @@ th{background:#2c3e50;color:#fff;position:sticky;top:0}
 tr:nth-child(even){background:#f8f9fa}
 tr:hover{background:#e8f4f8}
 .null{color:#bbb}
+#pager button{background:#fff;border:1px solid #ddd;padding:6px 12px;margin:0 2px;border-radius:4px;cursor:pointer;font-size:13px}
+#pager button:hover{background:#f0f0f0}
+#pager button:disabled{opacity:.4;cursor:not-allowed}
+#perPage{padding:6px 10px;border:1px solid #ddd;border-radius:4px;font-size:13px}
 .loading{text-align:center;padding:40px;color:#7f8c8d}
 </style>
 </head>
@@ -123,7 +127,7 @@ async function loadSheet(file){
   const headers=json.headers||[];
   const data=json.data||[];
   if(!data.length){view.innerHTML='<div class="card"><p>Tidak ada data.</p></div>';return;}
-  let html='<div class="card"><button class="back" onclick="loadSheets()">&larr; Kembali</button><h2>'+json.sheet+'</h2><div style="overflow-x:auto"><table><thead><tr>';
+  let html='<div class="card"><button class="back" onclick="loadSheets()">&larr; Kembali</button><h2>'+json.sheet+'</h2><div style="margin-bottom:12px"><label>Tampilkan </label><select id="perPage" onchange="renderPage()"><option value="10">10</option><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option></select> barir | <span id="info"></span></div><div style="overflow-x:auto"><table><thead><tr>';
   const validCols = headers.map((h,i)=>({h,i})).filter(x => x.h && x.h.trim() && !x.h.includes('@'));
   validCols.forEach(v => { html+='<th>'+(HM[v.h]||v.h)+'</th>'; });
   html+='</tr></thead><tbody>';
@@ -136,8 +140,49 @@ async function loadSheet(file){
     validCols.forEach(v => { let c=row[v.i]; if(typeof c==='string'&&c.match(/^\d{4}[-/]\d{2}[-/]\d{2}/)){c=c.substring(0,10);} html+='<td>'+(c!==''&&c!==null&&c!==undefined?c:'<span class="null">-</span>')+'</td>'; });
     html+='</tr>';
   });
-  html+='</tbody></table></div></div>';
+  html+='</tbody></table></div><div id="pager" style="margin-top:12px;text-align:center"></div></div>';
   view.innerHTML=html;
+  allData = data;
+  renderPage();
+}
+let allData = [];
+let currentPage = 1;
+let perPage = 50;
+function renderPage(){
+  perPage = parseInt(document.getElementById('perPage').value);
+  const total = allData.length;
+  const pages = Math.ceil(total / perPage);
+  currentPage = Math.min(currentPage, pages);
+  const start = (currentPage - 1) * perPage;
+  const end = start + perPage;
+  const pageData = allData.slice(start, end);
+  const tbody = document.querySelector('tbody');
+  let h = '';
+  pageData.forEach(row=>{
+    h+='<tr>';
+    row.forEach(c=>{h+='<td>'+(c!==''&&c!==null&&c!==undefined?c:'<span class="null">-</span>')+'</td>';});
+    h+='</tr>';
+  });
+  tbody.innerHTML = h;
+  document.getElementById('info').textContent = `Baris ${start+1}-${Math.min(end,total)} dari ${total}`;
+  const pager = document.getElementById('pager');
+  let btns = '';
+  if(pages > 1){
+    btns += `<button onclick="goPage(${currentPage-1})" ${currentPage===1?'disabled':''}>&laquo; Prev</button> `;
+    for(let i=1;i<=pages;i++){
+      if(i===1||i===pages||Math.abs(i-currentPage)<=2){
+        btns += `<button onclick="goPage(${i})" style="${i===currentPage?'background:#c0392b;color:#fff':''}">${i}</button> `;
+      } else if(Math.abs(i-currentPage)===3){
+        btns += '... ';
+      }
+    }
+    btns += `<button onclick="goPage(${currentPage+1})" ${currentPage===pages?'disabled':''}>Next &raquo;</button>`;
+  }
+  pager.innerHTML = btns;
+}
+function goPage(p){
+  currentPage = p;
+  renderPage();
 }
 loadSheets();
 </script>
