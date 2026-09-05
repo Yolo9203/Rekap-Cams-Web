@@ -13,35 +13,6 @@
     "Jenis Trx",
     "tgl byr"
   ],
-  "data": [
-    [
-      "2024-09-24 00:00:00",
-      1,
-      "CDP 454-BY SERVICE MOBIL AMBULANCE",
-      "SFRE",
-      210000,
-      "JOHN FERI SINAGA",
-      "BRI",
-      "178801002472533",
-      "",
-      "IFT2625306",
-      "BRI ke BRI",
-      ""
-    ],
-    [
-      "2024-09-24 00:00:00",
-      "",
-      "Gagal terkirim",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ]
-  ],
+  "data": [],
   "sheet": "Konfirm Kebun"
 }
