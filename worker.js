@@ -127,22 +127,13 @@ async function loadSheet(file){
   const headers=json.headers||[];
   const data=json.data||[];
   if(!data.length){view.innerHTML='<div class="card"><p>Tidak ada data.</p></div>';return;}
-  let html='<div class="card"><button class="back" onclick="loadSheets()">&larr; Kembali</button><h2>'+json.sheet+'</h2><div style="margin-bottom:12px"><label>Tampilkan </label><select id="perPage" onchange="renderPage()"><option value="10">10</option><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option></select> barir | <span id="info"></span></div><div style="overflow-x:auto"><table><thead><tr>';
+  allData = data;
+  currentPage = 1;
+  let html='<div class="card"><button class="back" onclick="loadSheets()">&larr; Kembali</button><h2>'+json.sheet+'</h2><div style="margin-bottom:12px"><label>Tampilkan </label><select id="perPage" onchange="renderPage()"><option value="10">10</option><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option></select> baris | <span id="info"></span></div><div style="overflow-x:auto"><table><thead><tr>';
   const validCols = headers.map((h,i)=>({h,i})).filter(x => x.h && x.h.trim() && !x.h.includes('@'));
   validCols.forEach(v => { html+='<th>'+(HM[v.h]||v.h)+'</th>'; });
-  html+='</tr></thead><tbody>';
-  data.forEach(row=>{
-    const rowText = row.map(c=>c!==''&&c!==null&&c!==undefined?String(c):'').join(' ');
-    if(rowText.toUpperCase().includes('PB DANA')||rowText.toUpperCase().includes('REKAP PEMBAYARAN')||rowText.toUpperCase().includes('TRANSAKSI CAMS'))return;
-    const qlolaIdx = headers.indexOf('Qlola');
-    if (qlolaIdx >= 0 && (!row[qlolaIdx] || !String(row[qlolaIdx]).trim())) return;
-    html+='<tr>';
-    validCols.forEach(v => { let c=row[v.i]; if(typeof c==='string'&&c.match(/^\d{4}[-/]\d{2}[-/]\d{2}/)){c=c.substring(0,10);} html+='<td>'+(c!==''&&c!==null&&c!==undefined?c:'<span class="null">-</span>')+'</td>'; });
-    html+='</tr>';
-  });
-  html+='</tbody></table></div><div id="pager" style="margin-top:12px;text-align:center"></div></div>';
+  html+='</tr></thead><tbody></tbody></table></div><div id="pager" style="margin-top:12px;text-align:center"></div></div>';
   view.innerHTML=html;
-  allData = data;
   renderPage();
 }
 let allData = [];
@@ -150,12 +141,18 @@ let currentPage = 1;
 let perPage = 50;
 function renderPage(){
   perPage = parseInt(document.getElementById('perPage').value);
-  const total = allData.length;
+  const filtered = allData.filter(row=>{
+    const rowText = row.map(c=>c!==''&&c!==null&&c!==undefined?String(c):'').join(' ');
+    if(rowText.toUpperCase().includes('PB DANA')||rowText.toUpperCase().includes('REKAP PEMBAYARAN')||rowText.toUpperCase().includes('TRANSAKSI CAMS'))return false;
+    if(!row[10]||!String(row[10]).trim())return false;
+    return true;
+  });
+  const total = filtered.length;
   const pages = Math.ceil(total / perPage);
-  currentPage = Math.min(currentPage, pages);
+  currentPage = Math.min(currentPage, pages) || 1;
   const start = (currentPage - 1) * perPage;
   const end = start + perPage;
-  const pageData = allData.slice(start, end);
+  const pageData = filtered.slice(start, end);
   const tbody = document.querySelector('tbody');
   let h = '';
   pageData.forEach(row=>{
