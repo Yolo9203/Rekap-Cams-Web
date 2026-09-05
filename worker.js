@@ -128,7 +128,7 @@ async function loadSheet(file){
   html+='</tr></thead><tbody>';
   data.forEach(row=>{
     html+='<tr>';
-    row.forEach((c,i)=>{if(skipIdx.has(i))return; html+='<td>'+(c!==''&&c!==null&&c!==undefined?c:'<span class="null">-</span>')+'</td>';});
+    validCols.forEach(v => { const c=row[v.i]; html+='<td>'+(c!==''&&c!==null&&c!==undefined?c:'<span class="null">-</span>')+'</td>'; });
     html+='</tr>';
   });
   html+='</tbody></table></div></div>';
