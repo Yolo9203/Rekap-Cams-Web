@@ -83,8 +83,8 @@ body{font-family:Segoe UI,Arial;background:#eef1f5;color:#2c3e50}
 .sheet-btn:hover{background:#34495e;transform:translateY(-2px)}
 .back{background:#95a5a6;color:#fff;border:none;padding:8px 16px;border-radius:4px;cursor:pointer;margin-bottom:12px;font-size:13px}
 .back:hover{background:#7f8c8d}
-table{width:100%;border-collapse:collapse;font-size:12px}
-th,td{padding:8px 10px;border:1px solid #ddd;text-align:left}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:1200px}
+th,td{padding:10px 12px;border:1px solid #ddd;text-align:left;white-space:nowrap}
 th{background:#2c3e50;color:#fff;position:sticky;top:0}
 tr:nth-child(even){background:#f8f9fa}
 tr:hover{background:#e8f4f8}
