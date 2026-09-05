@@ -92,7 +92,7 @@ async function loadSheet(file){
   const headers=json.headers||[],data=json.data||[];
   if(!data.length){view.innerHTML='<div class="card"><p>Tidak ada data.</p></div>';return;}
   allData=data;currentPage=1;
-  const validCols=[];
+  validCols=[];
   headers.forEach((h,i)=>{if(h&&h.trim()&&!h.includes('@'))validCols.push(i);});
   let html='<div class="card"><button class="back" onclick="loadSheets()">&larr; Kembali</button><h2>'+json.sheet+'</h2><div style="margin-bottom:12px"><label>Tampilkan </label><select id="perPage" onchange="renderPage()"><option value="10">10</option><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option></select> baris | <span id="info"></span></div><div style="overflow-x:auto"><table><thead><tr>';
   validCols.forEach(i=>{html+='<th>'+(HM[headers[i]]||headers[i])+'</th>';});
