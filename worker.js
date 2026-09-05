@@ -22,7 +22,7 @@ export default {
       }
 
       if (path === '/api/sheets') {
-        const sheets = SHEET_LIST.map(s => ({ name: s, file: s.replace(/[\/ ]/g, '_') + '.json' }))
+        const sheets = SHEET_LIST.map(s => ({ name: s.name, file: s.file }))
         return new Response(JSON.stringify(sheets), { headers: { 'Content-Type': 'application/json', ...cors } })
       }
 
@@ -43,9 +43,13 @@ export default {
 }
 
 const SHEET_LIST = [
-  'M Rekening', 'Rekap', 'email CDP', 'rekrut', 'BAPP', 'Vendor', 'CS', 'COLA',
-  'Kontanan', 'Perdin RO', 'LPJ Legal', 'Lain-Lain', 'Timesheet', 'Hit Token',
-  'Sheet4', 'LEmbur', 'BOT', 'PDR', 'Sheet1', 'CDP', 'Olah', 'Paste', 'Konfirm Kebun'
+  { file: 'BAPP.json', name: 'BAPP' },
+  { file: 'Kontanan.json', name: 'Kontanan' },
+  { file: 'rekrut.json', name: 'Rekrut' },
+  { file: 'Perdin_RO.json', name: 'Perdin RO' },
+  { file: 'email_CDP.json', name: 'CDP General' },
+  { file: 'CS.json', name: 'CS RO' },
+  { file: 'COLA.json', name: 'Plasma Mandiri' },
 ]
 
 const HTML = `<!doctype html>
