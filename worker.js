@@ -136,9 +136,6 @@ async function loadSheet(file){
   view.innerHTML=html;
   renderPage();
 }
-let allData = [];
-let currentPage = 1;
-let perPage = 50;
 function renderPage(){
   perPage = parseInt(document.getElementById('perPage').value);
   const filtered = allData.filter(row=>{
@@ -181,6 +178,9 @@ function goPage(p){
   currentPage = p;
   renderPage();
 }
+let allData = [];
+let currentPage = 1;
+let perPage = 50;
 loadSheets();
 </script>
 </body>
