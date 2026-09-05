@@ -75,7 +75,7 @@ body{font-family:Segoe UI,Arial;background:#eef1f5;color:#2c3e50}
 .top{background:#c0392b;color:#fff;padding:15px 20px;text-align:center}
 .top h1{font-size:20px;margin-bottom:4px}
 .top p{font-size:13px;opacity:.9}
-.container{max-width:1100px;margin:20px auto;padding:0 15px}
+.container{max-width:100%;margin:20px auto;padding:0 15px}
 .card{background:#fff;border-radius:8px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.08);margin-bottom:15px}
 .card h2{color:#c0392b;margin-bottom:12px;font-size:16px}
 .sheets{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
@@ -83,7 +83,7 @@ body{font-family:Segoe UI,Arial;background:#eef1f5;color:#2c3e50}
 .sheet-btn:hover{background:#34495e;transform:translateY(-2px)}
 .back{background:#95a5a6;color:#fff;border:none;padding:8px 16px;border-radius:4px;cursor:pointer;margin-bottom:12px;font-size:13px}
 .back:hover{background:#7f8c8d}
-table{width:100%;border-collapse:collapse;font-size:14px;min-width:1600px}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:2200px}
 th,td{padding:12px 14px;border:1px solid #ddd;text-align:left;white-space:nowrap}
 th{background:#2c3e50;color:#fff;position:sticky;top:0}
 tr:nth-child(even){background:#f8f9fa}
