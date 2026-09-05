@@ -1,32 +1,21 @@
 {
   "headers": [
+    "Tanggal",
     "",
-    "No",
-    "KEBUN",
-    "TEXT",
-    "SURAT PENGAJUAN CDP",
-    "Nama",
-    "BANK",
-    "Nilai",
-    "Status",
-    "No Rekening",
+    "",
+    "SFRE",
+    "BY PEMBELIAN SPART PART U/ DT 27",
+    "422",
+    "KISMAN",
+    "BRI",
+    "60000",
+    "09 - Renc 01",
+    "012601057048508",
     ""
   ],
   "data": [
     [
       "",
-      "",
-      "SFRE",
-      "BY PEMBELIAN SPART PART U/ DT 27",
-      422,
-      "KISMAN",
-      "BRI",
-      60000,
-      "09 - Renc 01",
-      "012601057048508",
-      ""
-    ],
-    [
       "",
       1,
       "SFRE",
@@ -42,6 +31,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN SPARE PART QUICK DIV 5",
       422,
@@ -55,6 +45,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN SPARE PART QUICK DIV 5",
       422,
@@ -66,6 +57,7 @@
       ""
     ],
     [
+      "",
       "",
       2,
       "SFRE",
@@ -81,6 +73,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN KEPERLUAN KEBUTUHAN MESS SFRE",
       421,
@@ -94,6 +87,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN MAKANAN U/ MEETING ALL STAF DAN RC",
       421,
@@ -105,6 +99,7 @@
       ""
     ],
     [
+      "",
       "",
       3,
       "SFRE",
@@ -120,6 +115,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN TRIPLEK U/ PERBAIKAN DINDING BARAK 38",
       421,
@@ -131,6 +127,7 @@
       ""
     ],
     [
+      "",
       "",
       4,
       "SFRE",
@@ -146,6 +143,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SPAREPART U/ TS NEWHOLAND",
       442,
@@ -157,6 +155,7 @@
       "765701011660531"
     ],
     [
+      "",
       "",
       5,
       "SFRE",
@@ -172,6 +171,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN SPAREPART U/QUICK DIV 4(QUICK MTRE)",
       442,
@@ -183,6 +183,7 @@
       ""
     ],
     [
+      "",
       "",
       6,
       "SFRE",
@@ -198,6 +199,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SRVICE KENDARAAN MARINIR SFRE",
       442,
@@ -209,6 +211,7 @@
       ""
     ],
     [
+      "",
       "",
       7,
       "SFRE",
@@ -224,6 +227,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE MOBIL MPAK EM DA8675BV",
       442,
@@ -235,6 +239,7 @@
       ""
     ],
     [
+      "",
       "",
       8,
       "SFRE",
@@ -250,6 +255,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE KENDARAAN PAK EM SFRE DA8675BV",
       444,
@@ -263,6 +269,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN SPAREPART U/ MOBIL PAK EM SFRE DA8675BV",
       444,
@@ -274,6 +281,7 @@
       ""
     ],
     [
+      "",
       "",
       9,
       "SFRE",
@@ -289,6 +297,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN PERLENGKAPAN PEMBIBITAN MB BLOK F.14,15(LC) DIV 1",
       442,
@@ -300,6 +309,7 @@
       ""
     ],
     [
+      "",
       "",
       10,
       "SFRE",
@@ -315,6 +325,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE KENDARAAN KANIT SFRE",
       442,
@@ -326,6 +337,7 @@
       ""
     ],
     [
+      "",
       "",
       11,
       "SFRE",
@@ -341,6 +353,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "PEMBELIAN BAHAN BANGUNAN",
       "032KS3",
@@ -352,6 +365,7 @@
       ""
     ],
     [
+      "",
       "",
       12,
       "ITNE",
@@ -367,6 +381,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "PEMBAYARAN SPARE PART UNIT EM MDLE",
       "031KS3",
@@ -378,6 +393,7 @@
       ""
     ],
     [
+      "",
       "",
       13,
       "ITNE",
@@ -393,6 +409,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "PEMBAYARAN PERBAIKAN JACK HAMMER",
       "035KS3",
@@ -404,6 +421,7 @@
       ""
     ],
     [
+      "",
       "",
       14,
       "ITNE",
@@ -419,6 +437,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELN SPAREPART MOBIL PAK EM DA8675BV",
       446,
@@ -430,6 +449,7 @@
       ""
     ],
     [
+      "",
       "",
       15,
       "SFRE",
@@ -445,6 +465,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE MOBIL PAK EM SFRE DA8675BV",
       446,
@@ -456,6 +477,7 @@
       ""
     ],
     [
+      "",
       "",
       16,
       "SFRE",
@@ -471,6 +493,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERBAIKAN BARAK GALUI PINTU NO 5",
       450,
@@ -482,6 +505,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -497,6 +521,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN PERALATAN KERJA U/ CE",
       450,
@@ -510,6 +535,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN PERALATAN U/ PERBAIKAN JALAN DIV 3,4 & 2",
       450,
@@ -521,6 +547,7 @@
       ""
     ],
     [
+      "",
       "",
       17,
       "SFRE",
@@ -536,6 +563,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE KENDARAAN ASST. DIV 3",
       454,
@@ -547,6 +575,7 @@
       ""
     ],
     [
+      "",
       "",
       18,
       "SFRE",
@@ -562,6 +591,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE MOBIL AMBULANCE",
       454,
@@ -573,6 +603,7 @@
       ""
     ],
     [
+      "",
       "",
       19,
       "SFRE",
@@ -588,6 +619,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY DANA SPANDUK HUT BHAYANGKARA",
       454,
@@ -599,6 +631,7 @@
       ""
     ],
     [
+      "",
       "",
       20,
       "SFRE",
@@ -614,6 +647,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN FRONTLITE BINNER DIV 1",
       454,
@@ -625,6 +659,7 @@
       ""
     ],
     [
+      "",
       "",
       21,
       "SFRE",
@@ -640,6 +675,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBAYARAN RENTAL MOBIL",
       454,
@@ -651,6 +687,7 @@
       ""
     ],
     [
+      "",
       "",
       22,
       "SFRE",
@@ -666,6 +703,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE MOTOR ASST QC",
       454,
@@ -677,6 +715,7 @@
       ""
     ],
     [
+      "",
       "",
       23,
       "SFRE",
@@ -692,6 +731,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERLENGKAPAN KEPERLUAN LAND APPLICATION",
       454,
@@ -703,6 +743,7 @@
       ""
     ],
     [
+      "",
       "",
       24,
       "SFRE",
@@ -718,6 +759,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN MINYAK PERTALITE U GENSET DIV 1&2",
       454,
@@ -729,6 +771,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -744,6 +787,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN SPAREPART DT 29",
       454,
@@ -755,6 +799,7 @@
       ""
     ],
     [
+      "",
       "",
       25,
       "SFRE",
@@ -770,6 +815,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN MATERISL U/ PEMBUATAN KERANGKA GAPURA SFRE",
       457,
@@ -781,6 +827,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -796,6 +843,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PMBLN MATERIAL U/ PMBUATAN LAPANGAN SD SFRE",
       457,
@@ -807,6 +855,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -822,6 +871,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBLN MATERIAL PEMBUATAN GARASI RUMAH STAFF NO.2",
       457,
@@ -833,6 +883,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -848,6 +899,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PMBLN MATERIAL PEMBUATAN PLANK NAMA PT",
       458,
@@ -859,6 +911,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -874,6 +927,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBLN MATERIAL PEMBUATAN RAMBU-RAMBU LALULINTAS",
       458,
@@ -885,6 +939,7 @@
       ""
     ],
     [
+      "",
       "",
       26,
       "SFRE",
@@ -900,6 +955,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE KENDARAAN MARINIR SFRE",
       466,
@@ -911,6 +967,7 @@
       ""
     ],
     [
+      "",
       "",
       27,
       "SFRE",
@@ -926,6 +983,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE MOBIL PAK AC",
       466,
@@ -937,6 +995,7 @@
       ""
     ],
     [
+      "",
       "",
       28,
       "SFRE",
@@ -952,6 +1011,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERBAIKAN KENDARAAN ASST QC",
       467,
@@ -965,6 +1025,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERBAIKAN KENDARAAN ASST QC",
       467,
@@ -976,6 +1037,7 @@
       ""
     ],
     [
+      "",
       "",
       29,
       "SFRE",
@@ -991,6 +1053,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE MOBIL PAK EM DA 5675BV",
       466,
@@ -1002,6 +1065,7 @@
       ""
     ],
     [
+      "",
       "",
       30,
       "SFRE",
@@ -1017,6 +1081,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE MOBIL PAK EM DA 5675BV",
       466,
@@ -1028,6 +1093,7 @@
       ""
     ],
     [
+      "",
       "",
       31,
       "SFRE",
@@ -1043,6 +1109,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE KENDARAAN KANITPAM SFRE",
       467,
@@ -1054,6 +1121,7 @@
       ""
     ],
     [
+      "",
       "",
       32,
       "SFRE",
@@ -1069,6 +1137,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY SERVICE DT 27",
       468,
@@ -1080,6 +1149,7 @@
       ""
     ],
     [
+      "",
       "",
       33,
       "SFRE",
@@ -1095,6 +1165,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERBAIKAN KENDARAAN KANITPAM SFRE",
       468,
@@ -1108,6 +1179,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERBAIKAN KENDARAAN KANITPAM SFRE",
       468,
@@ -1119,6 +1191,7 @@
       ""
     ],
     [
+      "",
       "",
       34,
       "SFRE",
@@ -1134,6 +1207,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERBAIKAN LAPANGAN SD SFRE",
       468,
@@ -1145,6 +1219,7 @@
       ""
     ],
     [
+      "",
       "",
       35,
       "SFRE",
@@ -1160,6 +1235,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBUATAN TITIPANEN BAJA RINGAN TAHAP 4 SFRE",
       469,
@@ -1171,6 +1247,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -1186,6 +1263,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERBAIKAN LANTAI DAN CAT JENDELA/PINTU RUMAH G2 PERMANEN DIV 2 BLOK D NO 7",
       469,
@@ -1197,6 +1275,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -1212,6 +1291,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERBAIKAN JENDELA DAN PINTU RUMAH G2 PERMANEN DIV 2 BLOK D NO 7",
       469,
@@ -1223,6 +1303,7 @@
       ""
     ],
     [
+      "",
       "",
       36,
       "SFRE",
@@ -1238,6 +1319,7 @@
     [
       "",
       "",
+      "",
       "MDLE",
       "PEMBYARAN TOKEN LISTRIK JULI 2024 MDLE",
       "034KS3",
@@ -1249,6 +1331,7 @@
       ""
     ],
     [
+      "",
       "",
       37,
       "MDLE",
@@ -1264,6 +1347,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY MAKAN TK BARU PEMANEN DIV 5 (12 HARI)",
       459,
@@ -1275,6 +1359,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -1290,6 +1375,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY MAKAN TK BARU PEMANEN DIV 5 (14 HARI)",
       460,
@@ -1301,6 +1387,7 @@
       ""
     ],
     [
+      "",
       "",
       38,
       "SFRE",
@@ -1316,6 +1403,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "PEMBAYARAN KOMSUMSI TK BARU DIV 4 ITNE",
       "029KS3",
@@ -1329,6 +1417,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "PEMBAYARAN KOMSUMSI TK BARU DIV 3 ITNE",
       "028KS3",
@@ -1340,6 +1429,7 @@
       ""
     ],
     [
+      "",
       "",
       39,
       "ITNE",
@@ -1355,6 +1445,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE BTL RUJUK PADEN AN FAJAR SILITONGA 16/05/24",
       423,
@@ -1366,6 +1457,7 @@
       ""
     ],
     [
+      "",
       "",
       40,
       "SFRE",
@@ -1381,6 +1473,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN A. SUBEKTI KE BBNE ANTAR PAK AC 10/05/24",
       423,
@@ -1394,6 +1487,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN AGUS SUBEKTI KE BJM ANTAR PAK AC 27-05/02-06/2024",
       423,
@@ -1405,6 +1499,7 @@
       ""
     ],
     [
+      "",
       "",
       41,
       "SFRE",
@@ -1420,6 +1515,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ATAN DIO CARLOS KE KOTABARU CABUT BERKAS KARY KECELAKAAN 06/05/24",
       423,
@@ -1431,6 +1527,7 @@
       ""
     ],
     [
+      "",
       "",
       42,
       "SFRE",
@@ -1446,6 +1543,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN BAHRUDIN KE MTRE SERVICE AC 30/05/24",
       423,
@@ -1457,6 +1555,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -1472,6 +1571,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN BAHRUDIN KE BBNE AMBIL KANVAS MOBIL 25/05/24",
       423,
@@ -1485,6 +1585,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN BAHRUDIN KE MTRE AMBIL SPAREPART AC 28/05/24",
       423,
@@ -1496,6 +1597,7 @@
       ""
     ],
     [
+      "",
       "",
       43,
       "SFRE",
@@ -1511,6 +1613,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN HENDRO KARTIKO KE PT PALMA AMBIL BATU 30/05/24",
       423,
@@ -1522,6 +1625,7 @@
       ""
     ],
     [
+      "",
       "",
       44,
       "SFRE",
@@ -1537,6 +1641,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN JEFRIANUS KALI AGUS KE MTRE ANTAR MEKANIK AC 30/05/24",
       423,
@@ -1548,6 +1653,7 @@
       ""
     ],
     [
+      "",
       "",
       45,
       "SFRE",
@@ -1563,6 +1669,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN JUHARPANTI KE KMYE PASANG PATOK HGU 24-29/05/24",
       423,
@@ -1574,6 +1681,7 @@
       ""
     ],
     [
+      "",
       "",
       46,
       "SFRE",
@@ -1589,6 +1697,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN KISMAN KE PT PALMA AMBIL BATU 24/05/24",
       423,
@@ -1602,6 +1711,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN KISMAN KE BTL MABIL SPAREPART 22/05/24",
       423,
@@ -1613,6 +1723,7 @@
       ""
     ],
     [
+      "",
       "",
       47,
       "SFRE",
@@ -1628,6 +1739,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.ALDI Y S KE BBNM MEETING 22/05/24",
       423,
@@ -1639,6 +1751,7 @@
       ""
     ],
     [
+      "",
       "",
       48,
       "SFRE",
@@ -1654,6 +1767,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.RAMADHANI KE BBNE AMBIL ALAT SPAREPART 25/05/24",
       423,
@@ -1667,6 +1781,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.RAMADHANI KE MDLE AMBIL RACUN 24/05/24",
       423,
@@ -1678,6 +1793,7 @@
       ""
     ],
     [
+      "",
       "",
       49,
       "SFRE",
@@ -1693,6 +1809,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN MULADI KE BBNM MEETING 22/05/24",
       423,
@@ -1704,6 +1821,7 @@
       ""
     ],
     [
+      "",
       "",
       50,
       "SFRE",
@@ -1719,6 +1837,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN NIKODEMUS NELOSN BAU KE PT PALMA AMBIL BATU 30/05/24",
       423,
@@ -1730,6 +1849,7 @@
       ""
     ],
     [
+      "",
       "",
       51,
       "SFRE",
@@ -1745,6 +1865,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PETRUS NAHAK KE PMTE AMBIL RADIATOR GENSET 21/05/24",
       423,
@@ -1758,6 +1879,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PETRUS NAHAK KE MENTEW AMBIL PERABOTAN 24/05/24",
       423,
@@ -1769,6 +1891,7 @@
       ""
     ],
     [
+      "",
       "",
       52,
       "SFRE",
@@ -1784,6 +1907,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PUJI WAHONO KE SERONGGA AMBIL BATU BISKOS 24/05/24",
       423,
@@ -1795,6 +1919,7 @@
       ""
     ],
     [
+      "",
       "",
       53,
       "SFRE",
@@ -1810,6 +1935,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RAUDATUL JANNAH KE BTL RUJUK PASIEN AN FAJAR SILITONGA SFRM 16-17/05/24",
       423,
@@ -1821,6 +1947,7 @@
       ""
     ],
     [
+      "",
       "",
       54,
       "SFRE",
@@ -1836,6 +1963,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN UJANG YANA KE PT PALMA AMBIL BATU 30/05/24",
       423,
@@ -1847,6 +1975,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -1862,6 +1991,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN UJANG YANA KE PT PALMA AMBIL BATU 28/05/24",
       423,
@@ -1875,6 +2005,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN UJANG YANA KE PT PALMA AMBIL BATU 24/05/24",
       423,
@@ -1886,6 +2017,7 @@
       ""
     ],
     [
+      "",
       "",
       55,
       "SFRE",
@@ -1901,6 +2033,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE KMYE AMBIL TABUNG OKSIGEN 04/05/24",
       440,
@@ -1912,6 +2045,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -1927,6 +2061,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE RS RUJUK P ANAK PAK NANO WS 06/06/24",
       440,
@@ -1938,6 +2073,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -1953,6 +2089,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE RS ANTAR IBU HAMIL NY MARIYANI 02/06/24",
       440,
@@ -1964,6 +2101,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -1979,6 +2117,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE RS JEMPUT P NY MARIYANI 08/06/24",
       440,
@@ -1990,6 +2129,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -2005,6 +2145,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE RS ANTAR P SALASUDIN MILL 10/06/24",
       440,
@@ -2016,6 +2157,7 @@
       ""
     ],
     [
+      "",
       "",
       56,
       "SFRE",
@@ -2031,6 +2173,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN JEFRIANUS KALI AGUS KE BUNGKUKAN AMBIL SPAREPAT MOBIL 31/05/24",
       441,
@@ -2042,6 +2185,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -2057,6 +2201,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN AGUS SUBEKTI KE BBNE AMBIL TOKEN 05/06/24",
       441,
@@ -2068,6 +2213,7 @@
       ""
     ],
     [
+      "",
       "",
       57,
       "SFRE",
@@ -2083,6 +2229,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN AGUS SUBEKTI KE BBNE NATAR PAK AC 13/06/24",
       440,
@@ -2094,6 +2241,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -2109,6 +2257,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN AGUS SUBEKTI KE BBNE ANTAR APK AC 08/06/24",
       440,
@@ -2120,6 +2269,7 @@
       ""
     ],
     [
+      "",
       "",
       58,
       "SFRE",
@@ -2135,6 +2285,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN AGUS SUBEKTI KE BBNE NATAR PAK AC 13/06/24",
       441,
@@ -2146,6 +2297,7 @@
       ""
     ],
     [
+      "",
       "",
       59,
       "SFRE",
@@ -2161,6 +2313,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN JEFRIANUS KALI AGUS KE BBNE ANTAR PAK BUDI PINDAHAN 13/06/24`",
       441,
@@ -2172,6 +2325,7 @@
       ""
     ],
     [
+      "",
       "",
       60,
       "SFRE",
@@ -2187,6 +2341,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN DEDY LUSINA KE BATULICIN CARI ALAT DT 05/06/06",
       440,
@@ -2198,6 +2353,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -2213,6 +2369,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN DEDY LUSINA KE KEL PENGAWASAN ANGKUT BATU 02.06.24",
       440,
@@ -2224,6 +2381,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -2239,6 +2397,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN DEDY LUSINA KE KEL PENGAWASAN ANGKUT BATU 23/05/24",
       440,
@@ -2250,6 +2409,7 @@
       ""
     ],
     [
+      "",
       "",
       61,
       "SFRE",
@@ -2265,6 +2425,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZA NAWAWI KE BBNE MEETING COST 08/06/24",
       441,
@@ -2276,6 +2437,7 @@
       ""
     ],
     [
+      "",
       "",
       62,
       "SFRE",
@@ -2291,6 +2453,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN JEFRIANUS KALI AGUS KE BBNE ANTAR PAK BUDI PINDAHAN 13/06/24`",
       440,
@@ -2302,6 +2465,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -2317,6 +2481,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN JEFRIANUS KALI AGUS AMBIL ALAT GENSET 09/06/24",
       440,
@@ -2328,6 +2493,7 @@
       ""
     ],
     [
+      "",
       "",
       63,
       "SFRE",
@@ -2343,6 +2509,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN KISMAN KE BATULICIN CARI ALAT DT 05/06/24",
       440,
@@ -2356,6 +2523,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN KISMAN KE BBNE ANTAR PAK BUYDI PINDAHAN 13/06/24",
       440,
@@ -2367,6 +2535,7 @@
       ""
     ],
     [
+      "",
       "",
       64,
       "SFRE",
@@ -2382,6 +2551,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.RAMADHANI KE BTL ANTAR IBU AC SFRE 05/06/24",
       441,
@@ -2393,6 +2563,7 @@
       ""
     ],
     [
+      "",
       "",
       65,
       "SFRE",
@@ -2408,6 +2579,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.RAMADHANI KE BTL ANTAR IBU AC SFRE 05/06/24",
       440,
@@ -2419,6 +2591,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -2434,6 +2607,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.RAMADHANI DARI BATULICIN KE SFRE ANTAR PAK EM 17/06/24",
       440,
@@ -2445,6 +2619,7 @@
       ""
     ],
     [
+      "",
       "",
       66,
       "SFRE",
@@ -2460,6 +2635,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN NASRIANTO KE BBNE MEETING COST 08/06/24",
       440,
@@ -2471,6 +2647,7 @@
       ""
     ],
     [
+      "",
       "",
       67,
       "SFRE",
@@ -2486,6 +2663,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PARIS SITANGGANG KE PARADISE RUJUK IBU HAMIL NY MARIYANI 02-06-24",
       440,
@@ -2497,6 +2675,7 @@
       ""
     ],
     [
+      "",
       "",
       68,
       "SFRE",
@@ -2512,6 +2691,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PETRUS NAHAK KE BBNE AMBIL TURBO GENSET 14/06/24",
       440,
@@ -2525,6 +2705,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PETRUS NAHAK KE BBNE ANTAR PAK BUDI PINDAHAN 13/06/24",
       440,
@@ -2536,6 +2717,7 @@
       ""
     ],
     [
+      "",
       "",
       69,
       "SFRE",
@@ -2551,6 +2733,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZA NAWAWI KE BBNE MEETING COST 08/06/24",
       440,
@@ -2562,6 +2745,7 @@
       ""
     ],
     [
+      "",
       "",
       70,
       "SFRE",
@@ -2577,6 +2761,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BATULICIN JEMPUT TK PEMANEN BARU 04/06/24",
       440,
@@ -2588,6 +2773,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -2603,6 +2789,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BJMO ANATAR TAMU HO CSR 30-31/05/24",
       440,
@@ -2614,6 +2801,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -2629,6 +2817,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BBNE ANTAR TAMU HO CSR 29/05/24",
       440,
@@ -2640,6 +2829,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -2655,6 +2845,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BJMO ANTAR PAK ANANG HO 23-24/05/24",
       440,
@@ -2666,6 +2857,7 @@
       ""
     ],
     [
+      "",
       "",
       71,
       "SFRE",
@@ -2681,6 +2873,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN NASRIANTO KE BBNE MEETING COST 08/06/24",
       441,
@@ -2692,6 +2885,7 @@
       ""
     ],
     [
+      "",
       "",
       72,
       "SFRE",
@@ -2707,6 +2901,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "KLAIM LPJ DINAS KIRIM BATU BASE COARSE MDLE AGUSTUS 1 2024",
       "030KS3",
@@ -2718,6 +2913,7 @@
       ""
     ],
     [
+      "",
       "",
       73,
       "ITNE",
@@ -2733,6 +2929,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "KLAIM LPJ DINAS KIRIM BATU BASE COARSE MDLE AGUSTUS 1 2024",
       "030KS3",
@@ -2744,6 +2941,7 @@
       ""
     ],
     [
+      "",
       "",
       74,
       "ITNE",
@@ -2759,6 +2957,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "KLAIM LPJ DINAS KIRIM BATU BASE COARSE MDLE AGUSTUS 1 2024",
       "030KS3",
@@ -2770,6 +2969,7 @@
       ""
     ],
     [
+      "",
       "",
       75,
       "ITNE",
@@ -2785,6 +2985,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "KLAIM LPJ DINAS KIRIM BATU BASE COARSE MDLE AGUSTUS 1 2024",
       "030KS3",
@@ -2796,6 +2997,7 @@
       ""
     ],
     [
+      "",
       "",
       76,
       "ITNE",
@@ -2811,6 +3013,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "KLAIM LPJ DINAS KIRIM BATU BASE COARSE MDLE AGUSTUS 1 2024",
       "030KS3",
@@ -2822,6 +3025,7 @@
       ""
     ],
     [
+      "",
       "",
       77,
       "ITNE",
@@ -2837,6 +3041,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "KLAIM LPJ DINAS KIRIM BATU BASE COARSE MDLE AGUSTUS 1 2024",
       "030KS3",
@@ -2848,6 +3053,7 @@
       ""
     ],
     [
+      "",
       "",
       78,
       "ITNE",
@@ -2863,6 +3069,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "KLAIM LPJ DINAS KIRIM BATU BASE COARSE MDLE AGUSTUS 1 2024",
       "030KS3",
@@ -2874,6 +3081,7 @@
       ""
     ],
     [
+      "",
       "",
       79,
       "ITNE",
@@ -2889,6 +3097,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "KLAIM LPJ DINAS KIRIM BATU BASE COARSE MDLE AGUSTUS 1 2024",
       "030KS3",
@@ -2900,6 +3109,7 @@
       ""
     ],
     [
+      "",
       "",
       80,
       "ITNE",
@@ -2915,6 +3125,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "KLAIM LPJ DINAS KIRIM BATU BASE COARSE MDLE AGUSTUS 1 2024",
       "030KS3",
@@ -2926,6 +3137,7 @@
       ""
     ],
     [
+      "",
       "",
       81,
       "ITNE",
@@ -2941,6 +3153,7 @@
     [
       "",
       "",
+      "",
       "ITNE",
       "KLAIM LPJ DINAS KIRIM BATU BASE COARSE MDLE AGUSTUS 1 2024",
       "030KS3",
@@ -2952,6 +3165,7 @@
       ""
     ],
     [
+      "",
       "",
       82,
       "ITNE",
@@ -2967,6 +3181,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE RS MARINA ANTR PASIEN KONTROL ISTRI PAK HARIYADI 01/07/24",
       451,
@@ -2978,6 +3193,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -2993,6 +3209,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE KMYE ANTAR PAK DOKTER MEETING 28/06/24",
       451,
@@ -3004,6 +3221,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3019,6 +3237,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE BUNGKUKAN ANTAR JEMPUT TIM MEDIS POSYANDU 21/06/24",
       451,
@@ -3030,6 +3249,7 @@
       ""
     ],
     [
+      "",
       "",
       83,
       "SFRE",
@@ -3045,6 +3265,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN AGUS SUBEKTI KE BBNE ANTAR PAK AC MEETING 22/06/24",
       451,
@@ -3056,6 +3277,7 @@
       ""
     ],
     [
+      "",
       "",
       84,
       "SFRE",
@@ -3071,6 +3293,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ANGELO AMARAL KE MANDAM JEMPUT ANAK SEKOLAH 28/06/24",
       451,
@@ -3082,6 +3305,7 @@
       ""
     ],
     [
+      "",
       "",
       85,
       "SFRE",
@@ -3097,6 +3321,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN BAHRUDIN KE BTL ANTAR SEMPRONG 28/06/24",
       451,
@@ -3108,6 +3333,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3123,6 +3349,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN BAHRUDIN KE PMTE  AMBIL MESIN QUICK DIV 4 18/06/24",
       451,
@@ -3136,6 +3363,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN BAHRUDIN KE BTL AMBIL SPAREPART MANAGER MILL 19/06/24",
       451,
@@ -3147,6 +3375,7 @@
       ""
     ],
     [
+      "",
       "",
       86,
       "SFRE",
@@ -3162,6 +3391,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN FITALIS WADAN KE KALTIM JEMPUT TK BARU 08-11/06/24",
       451,
@@ -3173,6 +3403,7 @@
       ""
     ],
     [
+      "",
       "",
       87,
       "SFRE",
@@ -3188,6 +3419,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN LEGIUS TOBI W KE KALTIM JEMPUT TK BARU 08-11/06/24",
       451,
@@ -3199,6 +3431,7 @@
       ""
     ],
     [
+      "",
       "",
       88,
       "SFRE",
@@ -3214,6 +3447,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.SYAHRUL AZIZ KE POP SANGSANG CEK ADAPTOR TOWER 19/06/24",
       451,
@@ -3227,6 +3461,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.SYAHRUL AZIZ KE MTRE & PMTE INSTALASI JARINGAN 03-07/06/24",
       451,
@@ -3238,6 +3473,7 @@
       ""
     ],
     [
+      "",
       "",
       89,
       "SFRE",
@@ -3253,6 +3489,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.RAMDAHANI KE BTL SERVICE MOBIL PAK EM DA8675BV 26-27/06/24",
       451,
@@ -3266,6 +3503,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.RAMDAHANI KE BTL AMBIL SPAREPART MOBIL PAK EM DA8675BV 18/06/24",
       451,
@@ -3277,6 +3515,7 @@
       ""
     ],
     [
+      "",
       "",
       90,
       "SFRE",
@@ -3292,6 +3531,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN NASRIANTO KE BBNE MEETING VARIAN COST 22/06/24",
       451,
@@ -3303,6 +3543,7 @@
       ""
     ],
     [
+      "",
       "",
       91,
       "SFRE",
@@ -3318,6 +3559,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PETRUS NAHAK KE BTL ANTAR SEMPRONG 28/06/24",
       451,
@@ -3329,6 +3571,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3344,6 +3587,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PETRUS NAHAK KE TOPAZ AMBIL STO RACUN 19/06/24",
       451,
@@ -3355,6 +3599,7 @@
       ""
     ],
     [
+      "",
       "",
       92,
       "SFRE",
@@ -3370,6 +3615,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BTL ANTAR MOBIL INNOVA ASURANSI 19/06/24",
       451,
@@ -3381,6 +3627,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3396,6 +3643,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BJMO ANTAR TIM AUDIT 14/06/24",
       451,
@@ -3407,6 +3655,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3422,6 +3671,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BBNE ANTAR PAK BUDI ORIENTASI 14/06/24",
       451,
@@ -3435,6 +3685,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE MDLE ANTAR PAK ALIYAN MUTASI 13/06/24",
       451,
@@ -3446,6 +3697,7 @@
       ""
     ],
     [
+      "",
       "",
       93,
       "SFRE",
@@ -3461,6 +3713,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN SELASTEAN GUSMAO KE KALTIM JEMPUT TK BARU 08-11/06/24",
       451,
@@ -3472,6 +3725,7 @@
       ""
     ],
     [
+      "",
       "",
       94,
       "SFRE",
@@ -3487,6 +3741,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN SUTRISNO KE  KALTIM JEMPUT TK BARU 08-11/06/24",
       451,
@@ -3498,6 +3753,7 @@
       ""
     ],
     [
+      "",
       "",
       95,
       "SFRE",
@@ -3513,6 +3769,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABDUL HAMID KE RS. MARINA MERUJUK PASIEN AN KOKOH (25/07/2024)",
       462,
@@ -3524,6 +3781,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3539,6 +3797,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABDUL HAMID KE RS KTB ANTAR PASIEN RUJUK - ISTRI FADIL MILL (29/07/2024)",
       462,
@@ -3550,6 +3809,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3565,6 +3825,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABDUL HAMID KE RS MARINA ANTAR PASIEN KONTROL AN KOKOH (16/07/2024)",
       462,
@@ -3576,6 +3837,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3591,6 +3853,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABDUL HAMID KE KLMYE ANTAR DR & HARTINI (23/07/2024)",
       462,
@@ -3604,6 +3867,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABDUL HAMID KE RS MARINA ANTAR PASIEN KONTROL - ISTRI HARIYADI (18/07/2024)",
       462,
@@ -3615,6 +3879,7 @@
       ""
     ],
     [
+      "",
       "",
       96,
       "SFRE",
@@ -3630,6 +3895,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN AGUS SUBERTI KE BBNE ANTAR IT (30/07/2024)",
       462,
@@ -3641,6 +3907,7 @@
       ""
     ],
     [
+      "",
       "",
       97,
       "SFRE",
@@ -3656,6 +3923,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN JOHAR PANTI KE KMYE CEK POKOK SAWIT BAFOR 50 M (15-17/07/2024)",
       462,
@@ -3667,6 +3935,7 @@
       ""
     ],
     [
+      "",
       "",
       98,
       "SFRE",
@@ -3682,6 +3951,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M. SYAHRUL AZIZ KE KMYE INSTALASI KBEL & JARINGAN (13/07/2024)",
       462,
@@ -3695,6 +3965,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M. SYAHRUL AZIZ KE KMYE MAINTENACE MESIN FINGER KB (11/07/2024)",
       462,
@@ -3706,6 +3977,7 @@
       ""
     ],
     [
+      "",
       "",
       99,
       "SFRE",
@@ -3721,6 +3993,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.RAMADHANI KE BUNGKUKAN GANTI BAN MOBIL PAK EM (16/07/2024)",
       462,
@@ -3732,6 +4005,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3747,6 +4021,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN MP.RAMADHANI KE BBNE ANTAR STAFF TRAINING (30/07/2024)",
       462,
@@ -3760,6 +4035,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.RAMADHANI KE SUNGAI DANAU JEMPUT KARYAWAN BARU (31/07-01/08/2024)",
       462,
@@ -3771,6 +4047,7 @@
       ""
     ],
     [
+      "",
       "",
       100,
       "SFRE",
@@ -3786,6 +4063,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PETRUS NAHAK KE BTL JEMPUT KANITPAM PMTE & MTRE (24/07/2024)",
       462,
@@ -3797,6 +4075,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3812,6 +4091,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PETRUS NAHAK KE BBNE ANTAR PAK NAWAWI AZIZ (27/07/2024)",
       462,
@@ -3823,6 +4103,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3838,6 +4119,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PETRUS NAHAK KE BTL BENGKEL TALENTA (24/07/2024)",
       462,
@@ -3849,6 +4131,7 @@
       ""
     ],
     [
+      "",
       "",
       101,
       "SFRE",
@@ -3864,6 +4147,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL FADILAH KE BBNE MELAYANI TIM KREATIF (23-26/07/2024)",
       462,
@@ -3875,6 +4159,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3890,6 +4175,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BBNE ANTAR STAFF TRAINIG (30/07/2024)",
       462,
@@ -3901,6 +4187,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3916,6 +4203,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BJMO SERVIS MOBIL & JEMPUT PAK CEO (03-10/07/2024)",
       462,
@@ -3927,6 +4215,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -3942,6 +4231,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BBNE AMBIL MOBIL INNOVA (15-16/07/2024)",
       462,
@@ -3955,6 +4245,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BTL RS.MARINA ANTAR ISTRI DOKTER USG (19/07/2024)",
       462,
@@ -3966,6 +4257,7 @@
       ""
     ],
     [
+      "",
       "",
       102,
       "SFRE",
@@ -3981,6 +4273,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN BAHAN MAKANAN U/ MESS SFRE",
       421,
@@ -3992,6 +4285,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4007,6 +4301,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN BAHAN MAKAN U/ TK BARU DIV 1 (2 ORG)",
       422,
@@ -4020,6 +4315,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN BAHAN MAKAN U/ TK BARU DIV 1 (8 ORG)",
       422,
@@ -4031,6 +4327,7 @@
       ""
     ],
     [
+      "",
       "",
       103,
       "SFRE",
@@ -4046,6 +4343,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN BHN MAKANAN&PERLENGKAPAN U/ KB SFRE",
       444,
@@ -4057,6 +4355,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4072,6 +4371,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN BHN MAKANAN U/ MESS SFRE",
       444,
@@ -4083,6 +4383,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4098,6 +4399,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN PERLENGKAPAN U/ POS SECURITY",
       444,
@@ -4109,6 +4411,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4124,6 +4427,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBLN KEPERLUAN RUMAH PAK EM SFRE",
       444,
@@ -4135,6 +4439,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4150,6 +4455,7 @@
     [
       "",
       "",
+      "",
       "SFRM",
       "BY KLAIM PEMBAYARAN KOPERASI JMS",
       475,
@@ -4161,6 +4467,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRM",
@@ -4176,6 +4483,7 @@
     [
       "",
       "",
+      "",
       "SFRM",
       "BY KLAIM PEMBAYARAN KOPERASI JMS",
       475,
@@ -4189,6 +4497,7 @@
     [
       "",
       "",
+      "",
       "SFRM",
       "BY KLAIM PEMBAYARAN KOPERASI JMS",
       475,
@@ -4200,6 +4509,7 @@
       ""
     ],
     [
+      "",
       "",
       104,
       "SFRM",
@@ -4215,6 +4525,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN BHN MAKANN DAN PERLENGKAPAN U/ MESS SFRE",
       455,
@@ -4226,6 +4537,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4241,6 +4553,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN BHN MAKANAN U/ MEETING KB SFRE",
       455,
@@ -4252,6 +4565,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4267,6 +4581,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN BHN MAKANAN DAN PERLENGKAPAN U/ MESS SFRE",
       455,
@@ -4278,6 +4593,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4293,6 +4609,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN SEPATU BOOTS U/ TK BARU PEMANEN",
       455,
@@ -4306,6 +4623,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN KEPERLUAN KARYAWAN BARU DIV 2 TK PEMANEN",
       455,
@@ -4317,6 +4635,7 @@
       ""
     ],
     [
+      "",
       "",
       105,
       "SFRE",
@@ -4332,6 +4651,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELN KEPERLUAN POS SECURITY SFRE",
       446,
@@ -4343,6 +4663,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4358,6 +4679,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELN PERLENGKPAN U/ KLINIK SFRE",
       446,
@@ -4369,6 +4691,7 @@
       ""
     ],
     [
+      "",
       "",
       106,
       "SFRE",
@@ -4384,6 +4707,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN PERLENGKAPAN U/ POS SECURITY",
       463,
@@ -4395,6 +4719,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4410,6 +4735,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN PERLENGKAPAN DAN PERALATAN U/ KB SFRE",
       463,
@@ -4421,6 +4747,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4436,6 +4763,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN BHN MAKANAN & MINUMAN U/ MESS SFRE",
       463,
@@ -4447,6 +4775,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4462,6 +4791,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN PERLENGKAPAN DAN PERALATAN U/ KB SFRE",
       463,
@@ -4473,6 +4803,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4488,6 +4819,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PEMBELIAN PERTALITE U /AMBULANCE",
       464,
@@ -4499,6 +4831,7 @@
       ""
     ],
     [
+      "",
       "",
       107,
       "SFRE",
@@ -4515,6 +4848,7 @@
       "",
       "",
       "",
+      "",
       "TOTAL",
       "",
       "",
@@ -4526,6 +4860,7 @@
     ],
     [
       "",
+      "",
       "CDP 423-",
       "",
       "",
@@ -4540,6 +4875,7 @@
     [
       "",
       "",
+      "",
       0,
       "CDP 423-",
       0,
@@ -4551,6 +4887,7 @@
       ""
     ],
     [
+      "",
       "",
       "No",
       "KEBUN",
@@ -4566,6 +4903,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN JEFRIANUS KALI AGUS KE BUNGKUKAN AMBIL SPAREPAT MOBIL 31/05/24",
       441,
@@ -4577,6 +4915,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4592,6 +4931,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN AGUS SUBEKTI KE BBNE AMBIL TOKEN 05/06/24",
       441,
@@ -4603,6 +4943,7 @@
       ""
     ],
     [
+      "",
       "",
       108,
       "SFRE",
@@ -4618,6 +4959,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN AGUS SUBEKTI KE BBNE NATAR PAK AC 13/06/24",
       441,
@@ -4629,6 +4971,7 @@
       ""
     ],
     [
+      "",
       "",
       109,
       "SFRE",
@@ -4644,6 +4987,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZA NAWAWI KE BBNE MEETING COST 08/06/24",
       441,
@@ -4655,6 +4999,7 @@
       ""
     ],
     [
+      "",
       "",
       110,
       "SFRE",
@@ -4670,6 +5015,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.RAMADHANI KE BTL ANTAR IBU AC SFRE 05/06/24",
       441,
@@ -4681,6 +5027,7 @@
       ""
     ],
     [
+      "",
       "",
       111,
       "SFRE",
@@ -4696,6 +5043,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN NASRIANTO KE BBNE MEETING COST 08/06/24",
       441,
@@ -4707,6 +5055,7 @@
       ""
     ],
     [
+      "",
       "",
       112,
       "SFRE",
@@ -4722,6 +5071,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN JEFRIANUS KALI AGUS KE BBNE ANTAR PAK BUDI PINDAHAN 13/06/24`",
       441,
@@ -4733,6 +5083,7 @@
       ""
     ],
     [
+      "",
       "",
       113,
       "SFRE",
@@ -4748,6 +5099,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN KISMAN KE BBNE ANTAR PAK BUYDI PINDAHAN 13/06/24",
       440,
@@ -4759,6 +5111,7 @@
       ""
     ],
     [
+      "",
       "",
       114,
       "SFRE",
@@ -4774,6 +5127,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BBNE ANTAR TAMU HO CSR 29/05/24",
       440,
@@ -4785,6 +5139,7 @@
       ""
     ],
     [
+      "",
       "",
       115,
       "SFRE",
@@ -4800,6 +5155,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE KMYE AMBIL TABUNG OKSIGEN 04/05/24",
       440,
@@ -4811,6 +5167,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4826,6 +5183,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE RS RUJUK P ANAK PAK NANO WS 06/06/24",
       440,
@@ -4837,6 +5195,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4852,6 +5211,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE RS ANTAR IBU HAMIL NY MARIYANI 02/06/24",
       440,
@@ -4863,6 +5223,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4878,6 +5239,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE RS JEMPUT P NY MARIYANI 08/06/24",
       440,
@@ -4889,6 +5251,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4904,6 +5267,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN ABD HAMID KE RS ANTAR P SALASUDIN MILL 10/06/24",
       440,
@@ -4915,6 +5279,7 @@
       ""
     ],
     [
+      "",
       "",
       116,
       "SFRE",
@@ -4930,6 +5295,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN AGUS SUBEKTI KE BBNE NATAR PAK AC 13/06/24",
       440,
@@ -4941,6 +5307,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -4956,6 +5323,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN AGUS SUBEKTI KE BBNE ANTAR APK AC 08/06/24",
       440,
@@ -4967,6 +5335,7 @@
       ""
     ],
     [
+      "",
       "",
       117,
       "SFRE",
@@ -4982,6 +5351,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN DEDY LUSINA KE BATULICIN CARI ALAT DT 05/06/06",
       440,
@@ -4993,6 +5363,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -5008,6 +5379,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN DEDY LUSINA KE KEL PENGAWASAN ANGKUT BATU 02.06.24",
       440,
@@ -5019,6 +5391,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -5034,6 +5407,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN DEDY LUSINA KE KEL PENGAWASAN ANGKUT BATU 23/05/24",
       440,
@@ -5045,6 +5419,7 @@
       ""
     ],
     [
+      "",
       "",
       118,
       "SFRE",
@@ -5060,6 +5435,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN JEFRIANUS KALI AGUS KE BBNE ANTAR PAK BUDI PINDAHAN 13/06/24`",
       440,
@@ -5071,6 +5447,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -5086,6 +5463,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN JEFRIANUS KALI AGUS AMBIL ALAT GENSET 09/06/24",
       440,
@@ -5097,6 +5475,7 @@
       ""
     ],
     [
+      "",
       "",
       119,
       "SFRE",
@@ -5112,6 +5491,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN KISMAN KE BATULICIN CARI ALAT DT 05/06/24",
       440,
@@ -5123,6 +5503,7 @@
       ""
     ],
     [
+      "",
       "",
       120,
       "SFRE",
@@ -5138,6 +5519,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.RAMADHANI KE BTL ANTAR IBU AC SFRE 05/06/24",
       440,
@@ -5149,6 +5531,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -5164,6 +5547,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN M.RAMADHANI DARI BATULICIN KE SFRE ANTAR PAK EM 17/06/24",
       440,
@@ -5175,6 +5559,7 @@
       ""
     ],
     [
+      "",
       "",
       121,
       "SFRE",
@@ -5190,6 +5575,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN NASRIANTO KE BBNE MEETING COST 08/06/24",
       440,
@@ -5201,6 +5587,7 @@
       ""
     ],
     [
+      "",
       "",
       122,
       "SFRE",
@@ -5216,6 +5603,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PARIS SITANGGANG KE PARADISE RUJUK IBU HAMIL NY MARIYANI 02-06-24",
       440,
@@ -5227,6 +5615,7 @@
       ""
     ],
     [
+      "",
       "",
       123,
       "SFRE",
@@ -5242,6 +5631,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PETRUS NAHAK KE BBNE AMBIL TURBO GENSET 14/06/24",
       440,
@@ -5255,6 +5645,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN PETRUS NAHAK KE BBNE ANTAR PAK BUDI PINDAHAN 13/06/24",
       440,
@@ -5266,6 +5657,7 @@
       ""
     ],
     [
+      "",
       "",
       124,
       "SFRE",
@@ -5281,6 +5673,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZA NAWAWI KE BBNE MEETING COST 08/06/24",
       440,
@@ -5292,6 +5685,7 @@
       ""
     ],
     [
+      "",
       "",
       125,
       "SFRE",
@@ -5307,6 +5701,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BATULICIN JEMPUT TK PEMANEN BARU 04/06/24",
       440,
@@ -5318,6 +5713,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -5333,6 +5729,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE BJMO ANATAR TAMU HO CSR 30-31/05/24",
       440,
@@ -5344,6 +5741,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -5359,6 +5757,7 @@
     [
       "",
       "",
+      "",
       "SFRE",
       "BY PERDIN RIZAL PADILAH KE INTE ANTAR TAMU HO CSR 28/05/24",
       440,
@@ -5370,6 +5769,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "SFRE",
@@ -5384,6 +5784,7 @@
     ],
     [
       "",
+      "",
       126,
       "SFRE",
       "CDP 440-BY PERDIN RIZAL PADILAH KE BJMO ANTAR PAK ANANG HO 23-24/05/24",
@@ -5396,6 +5797,7 @@
       ""
     ],
     [
+      "",
       "",
       "",
       "",
