@@ -1,5 +1,6 @@
 {
   "headers": [
+    "Tanggal",
     "No",
     "KET",
     "KEBUN",
@@ -12,6 +13,7 @@
   ],
   "data": [
     [
+      "",
       1,
       "CDP 422-BY PEMBELIAN SPART PART U/ DT 27",
       "SFRE",
@@ -23,6 +25,7 @@
       "09 - Renc 01"
     ],
     [
+      "",
       2,
       "CDP 422-BY PEMBELIAN SPARE PART QUICK DIV 5",
       "SFRE",
@@ -34,6 +37,7 @@
       "09 - Renc 01"
     ],
     [
+      "",
       3,
       "CDP 421-BY PEMBELIAN MAKANAN U/ MEETING ALL STAF DAN RC",
       "SFRE",
@@ -45,6 +49,7 @@
       "09 - Renc 01"
     ],
     [
+      "",
       4,
       "CDP 421-BY PEMBELIAN TRIPLEK U/ PERBAIKAN DINDING BARAK 38",
       "SFRE",
@@ -56,6 +61,7 @@
       "09 - Renc 01"
     ],
     [
+      "",
       5,
       "CDP 442-BY SPAREPART U/ TS NEWHOLAND",
       "SFRE",
@@ -67,6 +73,7 @@
       "09 - Renc 02"
     ],
     [
+      "",
       6,
       "CDP 442-BY PEMBELIAN SPAREPART U/QUICK DIV 4(QUICK MTRE)",
       "SFRE",
@@ -78,6 +85,7 @@
       "09 - Renc 02"
     ],
     [
+      "",
       7,
       "CDP 442-BY SRVICE KENDARAAN MARINIR SFRE",
       "SFRE",
@@ -89,6 +97,7 @@
       "09 - Renc 02"
     ],
     [
+      "",
       8,
       "CDP 442-BY SERVICE MOBIL MPAK EM DA8675BV",
       "SFRE",
@@ -100,6 +109,7 @@
       "09 - Renc 02"
     ],
     [
+      "",
       9,
       "CDP 444-BY PEMBELIAN SPAREPART U/ MOBIL PAK EM SFRE DA8675BV",
       "SFRE",
@@ -111,6 +121,7 @@
       "09 - Renc 02"
     ],
     [
+      "",
       10,
       "CDP 442-BY PEMBELIAN PERLENGKAPAN PEMBIBITAN MB BLOK F.14,15(LC) DIV 1",
       "SFRE",
@@ -122,6 +133,7 @@
       "09 - Renc 02"
     ],
     [
+      "",
       11,
       "CDP 442-BY SERVICE KENDARAAN KANIT SFRE",
       "SFRE",
@@ -133,6 +145,7 @@
       "09 - Renc 02"
     ],
     [
+      "",
       12,
       "CDP 032KS3-PEMBELIAN BAHAN BANGUNAN",
       "ITNE",
@@ -144,6 +157,7 @@
       "09 - Renc 03"
     ],
     [
+      "",
       13,
       "CDP 031KS3-PEMBAYARAN SPARE PART UNIT EM MDLE",
       "ITNE",
@@ -155,6 +169,7 @@
       "09 - Renc 03"
     ],
     [
+      "",
       14,
       "CDP 035KS3-PEMBAYARAN PERBAIKAN JACK HAMMER",
       "ITNE",
@@ -166,6 +181,7 @@
       "09 - Renc 03"
     ],
     [
+      "",
       15,
       "CDP 446-BY PEMBELN SPAREPART MOBIL PAK EM DA8675BV",
       "SFRE",
@@ -177,6 +193,7 @@
       "09 - Renc 04"
     ],
     [
+      "",
       16,
       "CDP 446-BY SERVICE MOBIL PAK EM SFRE DA8675BV",
       "SFRE",
@@ -188,6 +205,7 @@
       "09 - Renc 04"
     ],
     [
+      "",
       17,
       "CDP 450-BY PEMBELIAN PERALATAN U/ PERBAIKAN JALAN DIV 3,4 & 2",
       "SFRE",
@@ -199,6 +217,7 @@
       "09 - Renc 04"
     ],
     [
+      "",
       18,
       "CDP 454-BY SERVICE KENDARAAN ASST. DIV 3",
       "SFRE",
@@ -210,6 +229,7 @@
       "09 - Renc 05"
     ],
     [
+      "",
       19,
       "CDP 454-BY SERVICE MOBIL AMBULANCE",
       "SFRE",
@@ -221,6 +241,7 @@
       "09 - Renc 05"
     ],
     [
+      "",
       20,
       "CDP 454-BY DANA SPANDUK HUT BHAYANGKARA",
       "SFRE",
@@ -232,6 +253,7 @@
       "09 - Renc 05"
     ],
     [
+      "",
       21,
       "CDP 454-BY PEMBELIAN FRONTLITE BINNER DIV 1",
       "SFRE",
@@ -243,6 +265,7 @@
       "09 - Renc 05"
     ],
     [
+      "",
       22,
       "CDP 454-BY PEMBAYARAN RENTAL MOBIL",
       "SFRE",
@@ -254,6 +277,7 @@
       "09 - Renc 05"
     ],
     [
+      "",
       23,
       "CDP 454-BY SERVICE MOTOR ASST QC",
       "SFRE",
@@ -265,6 +289,7 @@
       "09 - Renc 05"
     ],
     [
+      "",
       24,
       "CDP 454-BY PERLENGKAPAN KEPERLUAN LAND APPLICATION",
       "SFRE",
@@ -276,6 +301,7 @@
       "09 - Renc 05"
     ],
     [
+      "",
       25,
       "CDP 454-BY PEMBELIAN SPAREPART DT 29",
       "SFRE",
@@ -290,6 +316,7 @@
       "",
       "",
       "",
+      "",
       "#N/A",
       "",
       "",
@@ -298,6 +325,7 @@
       0
     ],
     [
+      "",
       "",
       "",
       "",
