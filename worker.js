@@ -107,7 +107,7 @@ tr:hover{background:#e8f4f8}
   </div>
 </div>
 <script>
-const HM = {'KET':'Deskripsi','KEBUN':'Est Pengirim','NILAI':'Nilai','NAMA REK':'Nama Rekening Penerima','BANK':'Bank Penerima','NO REK':'No Rek Penerima','Qlola':'Trx Qlola','Lunas':'Tgl Bayar'};
+const HM = {'Tanggal':'Tanggal','KET':'Deskripsi','KEBUN':'Est Pengirim','NILAI':'Nilai','NAMA REK':'Nama Rekening Penerima','BANK':'Bank Penerima','NO REK':'No Rek Penerima','Qlola':'Trx Qlola','Lunas':'Tgl Bayar'};
 async function loadSheets(){
   const res=await fetch('/api/sheets');
   const sheets=await res.json();
@@ -128,6 +128,9 @@ async function loadSheet(file){
   validCols.forEach(v => { html+='<th>'+(HM[v.h]||v.h)+'</th>'; });
   html+='</tr></thead><tbody>';
   data.forEach(row=>{
+    // Skip rows where Qlola is empty
+    const qlolaIdx = headers.indexOf('Qlola');
+    if (qlolaIdx >= 0 && (!row[qlolaIdx] || !String(row[qlolaIdx]).trim())) return;
     html+='<tr>';
     validCols.forEach(v => { const c=row[v.i]; html+='<td>'+(c!==''&&c!==null&&c!==undefined?c:'<span class="null">-</span>')+'</td>'; });
     html+='</tr>';
