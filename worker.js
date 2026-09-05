@@ -77,7 +77,7 @@ tr:hover{background:#e8f4f8}
 <div class="top"><h1>Rekap CAMS</h1><p>Eagle High Plantations - Banjarbaru</p></div>
 <div class="container"><div id="view"><div class="card"><h2>Selamat Datang</h2><p style="color:#666;margin-bottom:15px">Pilih sheet di bawah untuk menampilkan data.</p><div id="sheets" class="sheets"><div class="loading">Memuat daftar sheet...</div></div></div></div></div>
 <script>
-let allData=[],currentPage=1,perPage=50;
+let allData=[],currentPage=1,perPage=50,validCols=[];
 async function loadSheets(){
   const res=await fetch('/api/sheets');
   const sheets=await res.json();
