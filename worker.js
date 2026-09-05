@@ -128,11 +128,12 @@ async function loadSheet(file){
   validCols.forEach(v => { html+='<th>'+(HM[v.h]||v.h)+'</th>'; });
   html+='</tr></thead><tbody>';
   data.forEach(row=>{
-    // Skip rows where Qlola is empty
+    const rowText = row.map(c=>c!==''&&c!==null&&c!==undefined?String(c):'').join(' ');
+    if(rowText.toUpperCase().includes('PB DANA')||rowText.toUpperCase().includes('REKAP PEMBAYARAN')||rowText.toUpperCase().includes('TRANSAKSI CAMS'))return;
     const qlolaIdx = headers.indexOf('Qlola');
     if (qlolaIdx >= 0 && (!row[qlolaIdx] || !String(row[qlolaIdx]).trim())) return;
     html+='<tr>';
-    validCols.forEach(v => { const c=row[v.i]; html+='<td>'+(c!==''&&c!==null&&c!==undefined?c:'<span class="null">-</span>')+'</td>'; });
+    validCols.forEach(v => { let c=row[v.i]; if(typeof c==='string'&&c.match(/^\d{4}[-/]\d{2}[-/]\d{2}/)){c=c.substring(0,10);} html+='<td>'+(c!==''&&c!==null&&c!==undefined?c:'<span class="null">-</span>')+'</td>'; });
     html+='</tr>';
   });
   html+='</tbody></table></div></div>';
