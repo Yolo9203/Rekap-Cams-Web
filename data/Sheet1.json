@@ -1,12 +1,21 @@
 {
   "headers": [
-    "Progresss",
+    "Tanggal",
     "",
-    "LUNAS",
+    "",
+    "",
     ""
   ],
   "data": [
     [
+      "",
+      "Progresss",
+      "",
+      "LUNAS",
+      ""
+    ],
+    [
+      "",
       "",
       "",
       "OUTSTANDING",
@@ -15,16 +24,19 @@
     [
       "",
       "",
+      "",
       "SEMUA",
       ""
     ],
     [
       "",
       "",
+      "",
       2026,
       "01"
     ],
     [
+      "",
       "Tahun",
       "",
       "",
@@ -34,15 +46,18 @@
       "",
       "",
       "",
+      "",
       "03"
     ],
     [
       "",
       "",
       "",
+      "",
       "DST"
     ],
     [
+      "",
       "PT",
       "",
       "JMSL",
@@ -51,10 +66,12 @@
     [
       "",
       "",
+      "",
       "SATL",
       ""
     ],
     [
+      "",
       "",
       "",
       "KASL",
@@ -63,22 +80,26 @@
     [
       "",
       "",
+      "",
       ".",
       ""
     ],
     [
       "",
       "",
+      "",
       ".",
       ""
     ],
     [
+      "",
       "",
       "",
       "Semua",
       ""
     ],
     [
+      "",
       "Terima kasih kepada :",
       "",
       "",
@@ -86,11 +107,13 @@
     ],
     [
       "",
+      "",
       "- Admin AP",
       "",
       ""
     ],
     [
+      "",
       "",
       "- Agent AI berbagai model",
       "",
@@ -98,23 +121,27 @@
     ],
     [
       "",
+      "",
       "- Github",
       "",
       ""
     ],
     [
       "",
+      "",
       "- Cloudflare",
       "",
       ""
     ],
     [
+      "",
       "Atas terciptanya web ini",
       "",
       "",
       ""
     ],
     [
+      "",
       "disclaimer : web ini dibangun dengan infrastruktur gratis, mohon tidak membagikannya kepada pihak yang tidak berkepentingan. Pemilik web tidak bertanggungjawab terhadap masalah yang muncul dikemudian hari",
       "",
       "",
